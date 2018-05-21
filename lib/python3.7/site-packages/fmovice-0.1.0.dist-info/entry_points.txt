@@ -1,0 +1,3 @@
+[console_scripts]
+fmv = fmovice:main
+
