@@ -3,6 +3,8 @@
 
 ' a test module '
 
+__author__ = 'hualai yu'
+
 import unittest
 
 from case.baidu.LoginPage import LoginPage
