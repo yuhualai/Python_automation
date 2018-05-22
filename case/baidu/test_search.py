@@ -4,8 +4,6 @@
 ' a test module '
 
 import unittest
-
-import time
 from case.baidu.BasePage import browser
 from case.baidu.SearchPage import SearchPage
 

@@ -5234,3 +5234,67 @@ JavaScript warning: http://www.liangyihui.net/js/main.js, line 141: unreachable 
 JavaScript warning: http://www.liangyihui.net/js/main.js, line 154: unreachable code after return statement
 JavaScript warning: http://www.liangyihui.net/js/main.js, line 243: unreachable code after return statement
 *** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526970093130	geckodriver	INFO	geckodriver 0.20.1
+1526970093145	geckodriver	INFO	Listening on 127.0.0.1:61365
+1526970094148	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/4y/bpbr9l_d2pz0x6v9wh_tcgd40000gn/T/rust_mozprofile.99VYrdcjcG9Q"
+2018-05-22 14:21:35.921 plugin-container[6568:528478] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9733, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-05-22 14:21:36.695 plugin-container[6569:528546] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1526970096695	Marionette	INFO	Listening on port 61376
+1526970096716	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 141: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 154: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 243: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 141: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 154: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 243: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526970109744	geckodriver	INFO	geckodriver 0.20.1
+1526970109750	geckodriver	INFO	Listening on 127.0.0.1:61486
+1526970110761	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/4y/bpbr9l_d2pz0x6v9wh_tcgd40000gn/T/rust_mozprofile.YKQkYHcvt2An"
+2018-05-22 14:21:52.276 plugin-container[6579:528830] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9637, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1526970112881	Marionette	INFO	Listening on port 61497
+1526970112971	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-05-22 14:21:53.728 plugin-container[6580:528903] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9337, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 141: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 154: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 243: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 141: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 154: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 243: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526970121333	geckodriver	INFO	geckodriver 0.20.1
+1526970121340	geckodriver	INFO	Listening on 127.0.0.1:61603
+1526970122349	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/4y/bpbr9l_d2pz0x6v9wh_tcgd40000gn/T/rust_mozprofile.RWM1F3nibLaZ"
+2018-05-22 14:22:03.845 plugin-container[6583:529102] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9837, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1526970124416	Marionette	INFO	Listening on port 61615
+1526970124458	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-05-22 14:22:05.241 plugin-container[6584:529168] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9137, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 141: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 154: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 243: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 141: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 154: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 243: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1526970132998	geckodriver	INFO	geckodriver 0.20.1
+1526970133008	geckodriver	INFO	Listening on 127.0.0.1:61715
+1526970134014	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-profile" "/var/folders/4y/bpbr9l_d2pz0x6v9wh_tcgd40000gn/T/rust_mozprofile.KvSunfnzDjnk"
+2018-05-22 14:22:15.489 plugin-container[6587:529358] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9737, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1526970136072	Marionette	INFO	Listening on port 61726
+1526970136120	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-05-22 14:22:16.847 plugin-container[6588:529425] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 141: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 154: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 243: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 141: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 154: unreachable code after return statement
+JavaScript warning: http://www.liangyihui.net/js/main.js, line 243: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
