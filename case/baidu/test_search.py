@@ -24,8 +24,7 @@ class Search_test(unittest.TestCase):
         self.Search.input_Box(text)
         self.Search.input_Btn()
 
-        all_h = self.driver.window_handles
-        self.driver.switch_to.window(all_h[1])
+        self.Search.window_handles(1)
 
         t = self.Search.input_text(3)
         print(t)

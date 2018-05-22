@@ -5,7 +5,7 @@
 
 __author__ = 'hualai yu'
 
-from case.baidu.BasePage import Action, browser
+from case.baidu.BasePage import Action
 
 
 class SearchPage(Action):
@@ -22,3 +22,4 @@ class SearchPage(Action):
     def input_text(self, i):
         io = self.texts(self.intxts, i)
         return io
+

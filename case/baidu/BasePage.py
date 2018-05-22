@@ -212,3 +212,8 @@ class Action:
         self.send_keys(password, psw)
         classmate = ("class name", "btn")
         self.click(classmate)
+
+    # 获取句柄
+    def window_handles(self, i):
+        all_h = self.driver.window_handles
+        self.driver.switch_to.window(all_h[i])
