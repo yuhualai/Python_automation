@@ -58,6 +58,10 @@ class Action:
         elements = WebDriverWait(self.driver, timeout, 1).until(EC.presence_of_all_elements_located(locator))
         return elements
 
+    def texts(self, locator, i):
+        elements = self.find_elements(locator)[i].text
+        return elements
+
     def click(self, locator):
         element = self.find_element(locator)
         element.click()
@@ -158,7 +162,7 @@ class Action:
 
     # 获取文本
     def get_text(self, locator):
-        element = self.find_element(locator)
+        element = self.find_element(locator).text
         return element
 
     # 获取属性
