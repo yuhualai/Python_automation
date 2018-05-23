@@ -23,3 +23,6 @@ class SearchPage(Action):
         io = self.texts(self.intxts, i)
         return io
 
+    def input_click(self, i):
+        io = self.texts(self.intxts, i)
+        return io

@@ -62,6 +62,10 @@ class Action:
         elements = self.find_elements(locator)[i].text
         return elements
 
+    def clicks(self, locator, i):
+        elements = self.find_elements(locator)[i].click()
+        return elements
+
     def click(self, locator):
         element = self.find_element(locator)
         element.click()
@@ -203,15 +207,6 @@ class Action:
     def select_by_text(self, locator, text):
         element = self.find_element(locator)
         Select(element).select_by_value(text)
-
-    # 封装登录方法
-    def login(self, username, psw):
-        login1_mobile = ("id", "login1_mobile")
-        self.send_keys(login1_mobile, username)
-        password = ("name", "password")
-        self.send_keys(password, psw)
-        classmate = ("class name", "btn")
-        self.click(classmate)
 
     # 获取句柄
     def window_handles(self, i):

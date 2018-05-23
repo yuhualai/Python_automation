@@ -21,7 +21,7 @@ class Blog(unittest.TestCase):
         self.driver.quit()
 
     def login1(self, username, psw):
-        self.login.click_submit1()
+        self.login.click_login()
         self.login.input_username(username)
         self.login.input_password(psw)
         self.login.click_submit()
