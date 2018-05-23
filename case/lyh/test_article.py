@@ -5,8 +5,8 @@
 
 __author__ = 'hualai yu'
 
-from case.baidu.BasePage import browser
-from case.baidu.ArticlePage import ArticlePage
+from case.lyh.BasePage import browser
+from case.lyh.ArticlePage import ArticlePage
 import unittest
 
 

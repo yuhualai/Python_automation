@@ -5,7 +5,7 @@
 
 __author__ = 'hualai yu'
 
-from case.baidu.BasePage import Action
+from case.lyh.BasePage import Action
 
 
 class ArticlePage(Action):

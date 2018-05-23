@@ -7,9 +7,9 @@ __author__ = 'hualai yu'
 
 import unittest
 
-from case.baidu.LoginPage import LoginPage
-from case.baidu.BasePage import browser
-from case.baidu.screen import Screen
+from case.lyh.LoginPage import LoginPage
+from case.lyh.BasePage import browser
+from case.lyh.screen import Screen
 
 
 class Login_test(unittest.TestCase):

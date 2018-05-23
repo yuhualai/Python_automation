@@ -6,8 +6,8 @@
 __author__ = 'hualai yu'
 
 import unittest
-from case.baidu.BasePage import browser
-from case.baidu.SearchPage import SearchPage
+from case.lyh.BasePage import browser
+from case.lyh.SearchPage import SearchPage
 from selenium.common.exceptions import NoSuchElementException
 
 

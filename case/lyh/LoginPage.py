@@ -3,7 +3,7 @@
 
 ' a test module '
 
-from case.baidu.BasePage import Action
+from case.lyh.BasePage import Action
 
 
 class LoginPage(Action):
