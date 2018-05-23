@@ -62,10 +62,6 @@ class Action:
         elements = self.find_elements(locator)[i].text
         return elements
 
-    def clicks(self, locator, i):
-        elements = self.find_elements(locator)[i].click()
-        return elements
-
     def click(self, locator):
         element = self.find_element(locator)
         element.click()
@@ -209,6 +205,7 @@ class Action:
         Select(element).select_by_value(text)
 
     # 获取句柄
-    def window_handles(self, i):
+    def window_handles_01(self, i):
         all_h = self.driver.window_handles
         self.driver.switch_to.window(all_h[i])
+    #

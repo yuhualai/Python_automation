@@ -27,8 +27,7 @@ class Search_test(unittest.TestCase):
 
         self.Search.window_handles(1)
         try:
-            t = self.Search.input_text(1)
-            print(t)
+            print(self.Search.input_text(1))
             return True
         except NoSuchElementException as msg:
             print("查找元素异常%s" % msg)
