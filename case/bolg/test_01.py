@@ -6,8 +6,8 @@ __author__ = 'hualai yu'
 
 import unittest
 import time
-from case.baidu.LoginPage import LoginPage
-from case.baidu.BasePage import browser
+from case.lyh.LoginPage import LoginPage
+from case.lyh.BasePage import browser
 from selenium.common.exceptions import NoSuchElementException
 
 

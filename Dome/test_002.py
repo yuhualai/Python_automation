@@ -36,7 +36,7 @@ class HuaLai():
 
 if __name__ == '__main__':
     d = HuaLai()
-    d.get("https://www.baidu.com")
+    d.get("https://www.lyh.com")
     input_loc = ("id", "kw")
     d.send_keys(input_loc, "yoyo")
     button_loc = ("id", "su")

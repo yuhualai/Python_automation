@@ -9,7 +9,7 @@ from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 
 driver = webdriver.Firefox()
-driver.get("https://www.baidu.com")
+driver.get("https://www.lyh.com")
 
 
 def find_element(locator, timeout=10):

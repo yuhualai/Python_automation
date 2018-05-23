@@ -205,7 +205,6 @@ class Action:
         Select(element).select_by_value(text)
 
     # 获取句柄
-    def window_handles_01(self, i):
+    def window_handles(self, i):
         all_h = self.driver.window_handles
         self.driver.switch_to.window(all_h[i])
-    #
