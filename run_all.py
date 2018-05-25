@@ -106,8 +106,8 @@ if __name__ == "__main__":
     # 获取最新的测试报告文件
     report_file = get_report_file(report_path)  # 获取最新的测试报告
     # 邮箱配置
-    sender = "15921470107@163.com"
-    psw = "yu.87579272"
+    sender = ""
+    psw = ""
     # 收件人多个时，中间用逗号隔开,如'a@xx.com,b@xx.com'
     receiver = "1245823284@qq.com,594279478@qq.com"
     smtp_server = 'smtp.163.com'
