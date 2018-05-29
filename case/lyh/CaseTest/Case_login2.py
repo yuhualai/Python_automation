@@ -6,12 +6,12 @@ __author__ = 'hualai yu'
 
 import unittest
 import time
-from case.lyh.LoginPage import LoginPage
-from case.lyh.BasePage import browser
+from case.lyh.ElementPage.LoginPage import LoginPage
+from case.lyh.BasePage.BasePage import browser
 from selenium.common.exceptions import NoSuchElementException
 
 
-class Blog(unittest.TestCase):
+class login(unittest.TestCase):
     def setUp(self):
         self.driver = browser()
         self.login = LoginPage(self.driver)

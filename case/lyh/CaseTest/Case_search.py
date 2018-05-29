@@ -6,12 +6,12 @@
 __author__ = 'hualai yu'
 
 import unittest
-from case.lyh.BasePage import browser
-from case.lyh.SearchPage import SearchPage
+from case.lyh.BasePage.BasePage import browser
+from case.lyh.ElementPage.SearchPage import SearchPage
 from selenium.common.exceptions import NoSuchElementException
 
 
-class Search_test(unittest.TestCase):
+class Search(unittest.TestCase):
 
     def setUp(self):
         self.driver = browser()

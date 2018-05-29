@@ -7,12 +7,11 @@ __author__ = 'hualai yu'
 
 import unittest
 
-from case.lyh.LoginPage import LoginPage
-from case.lyh.BasePage import browser
-from case.lyh.screen import Screen
+from case.lyh.ElementPage.LoginPage import LoginPage
+from case.lyh.BasePage.BasePage import browser
 
 
-class Login_test(unittest.TestCase):
+class Login(unittest.TestCase):
 
     def setUp(self):
         self.driver = browser()

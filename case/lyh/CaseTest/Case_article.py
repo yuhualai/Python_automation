@@ -5,12 +5,12 @@
 
 __author__ = 'hualai yu'
 
-from case.lyh.BasePage import browser
-from case.lyh.ArticlePage import ArticlePage
+from case.lyh.BasePage.BasePage import browser
+from case.lyh.ElementPage.ArticlePage import ArticlePage
 import unittest
 
 
-class Article_test(unittest.TestCase):
+class Article(unittest.TestCase):
     def setUp(self):
         self.driver = browser()
         self.Article = ArticlePage(self.driver)
@@ -29,6 +29,18 @@ class Article_test(unittest.TestCase):
             all_h = self.driver.window_handles
             # 切换句柄
             self.driver.switch_to.window(all_h[1])
+            # if wq == "最新资讯":
+            #     o = self.Article.list_article()
+            #     print(o)
+            #     # self.assertEqual(lists, o)
+            # elif wq == "热点推荐":
+            #     o = self.Article.list_project()
+            #     print(o)
+            #     # self.assertEqual(lists, o)
+            # else:
+            #     o = self.Article.list_article()
+            #     print(o)
+            #     self.assertEqual(lists, o)
             # 关闭新窗口
             self.driver.close()
             # 切换到首页句柄

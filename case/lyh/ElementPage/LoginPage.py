@@ -3,7 +3,7 @@
 
 ' a test module '
 
-from case.lyh.BasePage import Action
+from case.lyh.BasePage.BasePage import Action
 
 
 class LoginPage(Action):
