@@ -33,11 +33,11 @@ class Search(unittest.TestCase):
             print("查找元素异常%s" % msg)
             return False
 
-    def test_Search_01(self):
+    def test_search_01(self):
         self.Search_case("癌症")
 
-    def test_Search_02(self):
+    def test_search_02(self):
         self.Search_case("哈哈")
 
-    def test_Search_03(self):
+    def test_search_03(self):
         self.Search_case("乳腺癌")
