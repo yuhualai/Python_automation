@@ -5,7 +5,7 @@
 
 __author__ = 'hualai yu'
 
-from case.bolg.BasePage import Action
+from case.lyh.BasePage.BasePage import Action
 
 
 class TestPage(Action):

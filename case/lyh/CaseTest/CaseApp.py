@@ -10,13 +10,14 @@ import time
 # 我们使用python的unittest作为单元测试工具
 import unittest
 # 我们使用python的unittest作为单元测试工具
-from case.bolg.BasePage import get_desired_capabilities, get_uri
+
 from appium import webdriver
+from case.lyh.BasePage.BasePage import get_desired_capabilities, get_uri
 
-from case.bolg.TestPage import TestPage
+from case.lyh.ElementPage.AppPage import TestPage
 
 
-class MqcTest(unittest.TestCase):
+class AppTest(unittest.TestCase):
     def setUp(self):
         # 获取我们设定的capabilities，通知Appium Server创建相应的会话。
         desired_caps = get_desired_capabilities()
@@ -32,17 +33,17 @@ class MqcTest(unittest.TestCase):
         self.driver.quit()
 
     # 第1个用例"查看文章详情页面"
-    def test_case(self):
+    def case(self):
         self.test = TestPage(self.driver)
         print(self.test.tag_text())
         self.test.tag_name()
         self.test.tag_bg()
 
     def test_start_01(self):
-        self.case_test()
+        self.case()
 
     def test_start_02(self):
-        self.case_test()
+        self.case()
 
 
 if __name__ == '__main__':

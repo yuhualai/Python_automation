@@ -3,6 +3,7 @@
 
 ' a test module '
 
+
 __author__ = 'hualai yu'
 
 from selenium import webdriver
@@ -11,6 +12,28 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
+import sys
+
+
+def get_desired_capabilities():
+    desired_caps = {
+        'platformName': 'iOS',
+        'platformVersion': '10.0',
+        'deviceName': 'iPhone 6s',
+        'appPackage': 'net.liangyihui.app',
+        'appActivity': 'com.dop.h_doctor.ui.splash.IntroActivity',
+        "app": "/Users/yuhualai/Desktop/oncologynews.app"
+
+    }
+    return desired_caps
+
+
+def get_uri():
+    return 'http://localhost:4723/wd/hub'
+
+
+def get_sy():
+    sys.stdout.flush()
 
 
 def browser(browser='firefox'):
