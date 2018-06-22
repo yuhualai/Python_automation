@@ -30,7 +30,7 @@ class Test(unittest.TestCase):
 
     def setUp(self):
         self.driver = webdriver.Firefox()
-        self.driver.get("https://wwww.lyh.com")
+        self.driver.get("https://wwww.baidu.com")
 
     @Screen()
     def test_01(self):
