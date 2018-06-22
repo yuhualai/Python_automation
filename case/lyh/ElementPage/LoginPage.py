@@ -30,5 +30,4 @@ class LoginPage(Action):
     def click_submit(self):
         self.click(self.classmate)
 
-    def text_name(self):
-        self.txt(self.name_txt)
+

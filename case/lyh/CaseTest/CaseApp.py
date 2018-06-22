@@ -5,15 +5,11 @@
 
 __author__ = 'hualai yu'
 
-# 使用time.sleep(xx)函数进行等待
-import time
-# 我们使用python的unittest作为单元测试工具
-import unittest
-# 我们使用python的unittest作为单元测试工具
 
+import time
+import unittest
 from appium import webdriver
 from case.lyh.BasePage.BasePage import get_desired_capabilities, get_uri
-
 from case.lyh.ElementPage.AppPage import TestPage
 
 
@@ -27,6 +23,7 @@ class AppTest(unittest.TestCase):
         self.driver = webdriver.Remote(uri, desired_caps)
         # 等待app完全加载
         time.sleep(3)
+        self.test = TestPage(self.driver)
 
     def tearDown(self):
         # 测试结束，退出会话
@@ -34,7 +31,6 @@ class AppTest(unittest.TestCase):
 
     # 第1个用例"查看文章详情页面"
     def case(self):
-        self.test = TestPage(self.driver)
         print(self.test.tag_text())
         self.test.tag_name()
         self.test.tag_bg()
@@ -43,6 +39,9 @@ class AppTest(unittest.TestCase):
         self.case()
 
     def test_start_02(self):
+        self.case()
+
+    def test_start_03(self):
         self.case()
 
 
